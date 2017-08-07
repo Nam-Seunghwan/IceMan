@@ -1,0 +1,75 @@
+ 안드로이드 10대 오픈소스 게임 엔진 ( http://jh20a.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-10%EB%8C%80-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C2D3D%EA%B2%8C%EC%9E%84%EC%97%94%EC%A7%84 ) 
+
+[요약] 
+
+1. Rokon : 안드로이드용 오픈소스 2D 게임엔진
+Rokon은 오픈소스이고 활용도가 높고(extensive), 강력하고(powerful)그리고 유연성(flexible)있는 안드로이드용 2D 게임엔진이다. Rokon은 처음부터 다시 재작성되었다. 많은 특징들이 통합되었고, 향후 더 많은것을 약속한다. 예를 들면 튜터리얼과 도큐먼트는 이번 릴리즈에 포함된다. Rokon은 안드로이드용 오픈소스 2D 오픈지엘 게임엔진(새로운 BSD 라이센스)이다.
+libgdx와 Box2D의 도움으로 개발자들은 충분하고, 자세한 네이티브코드(native code)로 작성된 물리엔진을 당신에게 가져다 줄것이다.
+
+project home: http://rokonandroid.com/ and http://code.google.com/p/rokon/
+
+2. Libgdx : 안드로이드 게임 개발 프레임워크
+Libgdx는 오픈소스 안드로이드 프로젝트이다, 개발자들이 성능이 부족한 부분에 지니코드로 작성된 자바로 쓰여진 크로스 플랫폼 게임 개발 라이브러리를 시도한다. 그것은 데스크탑 작성과 오픈지엘을 기반으로한 안드로이드 게임과의 차이점을 무시한다. 이것은 프로토타입에서 사용자(you)가 데스크탑에서 전적으로 너의 어플리케이션을 개발할수 있도록 그리고 안드로이드에서 그것을 실행할때 6줄의 코드만이 필요하다록 해줄것이다.
+
+project home :  http://code.google.com/p/libgdx/
+
+3. Android-2D-Engine : c++/java로 쓰여진 안드로이드용 2D게임 엔진.
+Android-2d-engine은 게임에 제공하기 위해 탄생된 프로젝트로 최근에도 개발중인 오픈소스 게임엔진이다...이런 뜻인거 같음
+(Android-2d-engine is an open source Android 2D game engine which is currently under construction, the project born for serve as base for games.) 실제로 2개의 프로젝트가 있다.:trunk/bullet:bullet에는 c++소스 코드와 안드로이드용 통신을 위해 jni가 포함되어 있다. 이 코드는 샘플에 컴파일된 lib가 포함되어 있기 때문에 실제로는 필요하지 않다.
+trunk/androgine:프로파일링 목적으로 bullet plus샘플은 통신하기 위해 필요한 코드의 나머지 부분이 포함된다.
+
+project home :  http://code.google.com/p/android-2d-engine/
+
+4. AndEngine : 무료 안드로이드 2D OpenGL 게임엔진
+드로이드 플랫폼을 위한 무료 2D OpenGL게임엔진인 AndEngine은 오픈소스 안드로이드 게임엔진이다. 주요 특징은 다음과 같다.
+* 안드로이드 최적화
+* 안드로이드 1.6 최적화
+* 분할 스크린(SplitScreen)
+	* 네트워크 멀티플레이어
+	* Live-Wallpapers
+	* 멀티 터치
+	* 물리엔진(Box2D)
+	project home :  http://code.google.com/p/andengine/
+
+5. Angle : Android GL Engine
+Angle은 안드로이드에 가능한 최고의 속도를(as much speed as possible)제공하기 위해 OpenGL ES를 사용한 2D게임 개발을 목표로 한 오픈소스 게임엔진 프로젝트 이다. 엔진은 전적으로 자바로 작성되어 있어서, 편리하게 모든 오브젝트를 재작성(Overload)할수 있다. 또한 엔진은 어떻게 사용하는지 설명된 튜터리얼 시리즈를 포함하고 있다.
+
+	project home :  http://code.google.com/p/angle/
+
+
+6. jPCT-AE : 안드로이드용 무료 3D 엔진
+jPCT-AE(Android Edition)은 안드로이드에서 jPCT의 포트이다. 단순한 포트이다.안드로이드 플랫폼에 더 최적화된 jPCT의 일반 버젼을 위한 새로운 렌더러는 아니다. jPCT는 무료이고, 작으면서, 빠른 그리고 배우기 쉬운 자바용 3D 엔진이다. jPCT는 하드웨어와 소프트웨어 렌더링을 지원한다. jPCT는 자바를 이용해서 끝내주게 보이는 3D게임이나 어플리케이션을 단시간에 작성하고자 할때 필요한 모든 특징들을 당신에게 제공해 준다. 충돌체크나 Swing/AWT을 대체할만한 GUI 팩키지(seperate GUI package)를 위한 추가 라이브러리가 필요하지 않다.
+
+	project home :   http://www.jpct.net/jpct-ae/
+
+7. Dwarf-fw: 안드로이드 3D 프레임워크
+Dwarf-fw은 오픈소스 안드로이드 프레임 워크이자 씬그래프와 몇몇개의 유틸리티 클래스로 구성된 게임엔진이다. 그것은 주로 OpenGL ES 추상화를 목적으로 하고 있다. 그것은 가속도계, 자력계, 터치스크린 그리고 트랙볼이 특징인 안드로이드 개발폰1(Android Dev Phone 1)의 기능으로 개발되었다. 만약 다른 기기를 가지고 있다면, 그것으로 테스트하고 다시 알려야 한다.현재의 특징중 일부이다.
+	* 공간적인 키프레임 에니메이션(모핑은 안됨)
+	* 피킹
+	* OBJ 임포터
+	* 바이너리 임포터/익스포터
+	* 라이팅
+	* 머테리얼
+	* 간단한 센서 필터링
+	* VBO 지원
+
+	project home :  http://code.google.com/p/dwarf-fw/
+
+
+8. YoghurtGum: 모바일 장치를 위한 클래스 플랫폼 C++ 2D 엔진
+YoghurtGum은 오픈소스 프로젝트로써, 모바일 장치로 쉽게, 재밌게 그리고 빠르게 게임 개발을 하는것을 목적으로 만들어진 클로스 플랫폼 2D 게임엔진이다. 꼭 사탕처럼 그것의 이름은 유래되었다. 현재 YoghurtGum은  머리속에 윈도우 모바일 6를 유지한채로 안드로이드용으로 개발중에 있다. 윈도우 모바일6가 DirectX를 사용하는것에 반하여, 안드로이드에선 화면에선 화면에 어떤것을 렌더링하기 위해서 OpenGL을 사용한다..
+
+	project home :  http://code.google.com/p/yoghurtgum/
+
+9. Forget3D : OpenGL ES 프레임워크
+Forget3D 게임엔진(OpenGL ES 프레임워크)은 안드로이드, Win32, WinCE플래폼용 OpenGL ES 플랫폼(아직 엔진은 아니다)이다. 그것은 씬매니지먼트(scene management), 텍스쳐, 카메라, 라이트, 모델 로더, 폰트 기타등등을 지원함으로써 당신의 OpenGL ES프로그램 개발을 간소화한다.
+
+	project home :  http://code.google.com/p/forget3d/
+
+10. Mages : Mages 게임엔진은 최소한의 노력으로 모바일 장치에서 멀티플레이어 클라이언트/서버 인터넷 게임을 개발할수 있도록 해준다. Mages는 안드로이드와 다른 모바일 장치(현재 안드로이드와 J2ME장치만 지원하고, 윈도우 모바일 개발이 진행중이다.)용  멀티플레이어 클라이언트/서버 게임 엔진이다. 이 엔진은 강력한 엔진 API에 의해서 핵심 게임 로직과 GUI만 시행해서 인터넷 멀티 플레이어 게임들을 개발하도록 해준다.  개발자들은 효과적인 코멧기반 엔진(Comet-based engine)으로 네트워킹 프로토콜이나 게임 서버에 로그인, 활동중인 플레이어 리스트의 검색, 이용할수 있는 게임 세션의 리스트, 새로운 게임세션의 생성, 다른 플레이어의 초대, 상대방과의 채팅, 그리고 다른 많은 특징과 같은 일반 게임에서의 작업들을 재사용할수 있다. 
+
+	project home :  http://code.google.com/p/mages/
+
+
+출처: http://jh20a.tistory.com/entry/안드로이드-개발자를-위한-10대-오픈소스-안드로이드2D3D게임엔진 [웃으면 복이와요!!]
+
