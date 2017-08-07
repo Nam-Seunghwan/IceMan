@@ -1,2 +1,2 @@
 # IceMan
-like cool running 
+The game likes cool-running 
